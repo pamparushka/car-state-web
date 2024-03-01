@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     var messageElement = document.getElementById("message");
 
-    var countDown = 5; // Geri sayım süresi (saniye)
-    var redirectUrl = "https://discord.com/sunucu"; // Yönlendirilecek Discord sunucusu URL'si
+    var countDown = 5;
+    var redirectUrl = "https://discord.com/sunucu";
 
     var countdownInterval = setInterval(function() {
         messageElement.textContent = countDown + " saniye içerisinde Discord sunucusuna gönderileceksiniz...";
